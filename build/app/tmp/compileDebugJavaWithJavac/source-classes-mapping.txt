@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/covid/dark_theme/BuildConfig.java
+ com.covid.dark_theme.BuildConfig
+com/covid/dark_theme/MainActivity.java
+ com.covid.dark_theme.MainActivity

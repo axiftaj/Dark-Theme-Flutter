@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.nfet.flutter.printing" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml
+6
+7    <application>
+7-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:4:5-14:19
+8        <provider
+8-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:5:9-13:20
+9            android:name="net.nfet.flutter.printing.PrintFileProvider"
+9-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:6:13-46
+10            android:authorities="${applicationId}.flutter.printing"
+10-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:7:13-68
+11            android:exported="false"
+11-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:8:13-37
+12            android:grantUriPermissions="true" >
+12-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:9:13-47
+13            <meta-data
+13-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:10:13-12:70
+14                android:name="android.support.FILE_PROVIDER_PATHS"
+14-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:11:17-67
+15                android:resource="@xml/flutter_printing_file_paths" />
+15-->/Users/eapple/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.2.1/android/src/main/AndroidManifest.xml:12:17-68
+16        </provider>
+17    </application>
+18
+19</manifest>
